@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-image: url("../landing/artboard_texture.Jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  padding: 20px;
+  color: black;
+  text-shadow: 5px 0px 15px black;
+  font-style: italic;
+  font-size: 32px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav > a {
+  background-color: black;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(58, 58, 58);
+}
+nav > a:hover {
+  border: 1px solid gold;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-height: 90vh;
+}
+img {
+  min-height: 250px;
+  max-height: 350px;
+  margin: 25px;
+  box-shadow: 10px 10px 10px black;
+}
+img:hover {
+  border: 1px solid gold;
+}

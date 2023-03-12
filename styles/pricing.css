@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  border: 5px solid firebrick;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  color: rgb(204, 204, 204);
+  background-color: black;
+  padding: 10px;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 3em;
+  font-family: "Calligraffitti", cursive;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+p {
+  padding: 5px;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 2em;
+  }
+}

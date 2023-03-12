@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../gallery-images/Big-Game/Jackson\ moose.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.container {
+  padding: 20px;
+  background-color: rgb(240, 248, 255, 0.7);
+  border-radius: 50px;
+}
+h1 {
+  border-bottom: 2px solid rgb(189, 189, 189);
+}
+header,
+main,
+footer {
+  margin-bottom: 80px;
+}
+main {
+  font-size: 1.5em;
+}
+h4 {
+  margin-bottom: 30px;
+}
+p {
+  margin-bottom: 5px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: aliceblue;
+}
