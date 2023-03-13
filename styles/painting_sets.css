@@ -41,13 +41,19 @@ main {
   min-height: 90vh;
 }
 img {
-  min-height: 250px;
-  max-height: 350px;
+  min-height: 150px;
+  max-height: 250px;
+  max-width: 350px;
   margin: 25px;
   box-shadow: 10px 10px 10px black;
 }
 img:hover {
   border: 1px solid gold;
+}
+.big {
+  transform: scale(2.5);
+  position: sticky;
+  margin-top: 100px;
 }
 footer > a {
   color: white;
@@ -56,5 +62,13 @@ footer > a {
 @media screen and (min-width: 1000px) {
   footer {
     display: none;
+  }
+  img {
+    min-height: 250px;
+    max-height: 350px;
+    max-width: 500px;
+  }
+  .big {
+    position: fixed;
   }
 }
