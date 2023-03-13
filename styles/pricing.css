@@ -29,7 +29,8 @@ footer {
 }
 footer > a {
   background-color: firebrick;
-  padding: 5px;
+  padding: 3px;
+  margin-right: 10px;
   border-radius: 10px;
 }
 
