@@ -41,9 +41,8 @@ main {
   min-height: 90vh;
 }
 img {
-  min-height: 150px;
-  max-height: 250px;
-  max-width: 350px;
+  height: 200px;
+  max-width: 380px;
   margin: 25px;
   box-shadow: 10px 10px 10px black;
 }
@@ -51,9 +50,10 @@ img:hover {
   border: 1px solid gold;
 }
 .big {
-  transform: scale(2.5);
-  position: sticky;
-  margin-top: 100px;
+  /* transform: scale(1.5); */
+  height: 50vh;
+  width: 100vw;
+  position: fixed;
 }
 footer > a {
   color: white;
@@ -64,11 +64,11 @@ footer > a {
     display: none;
   }
   img {
-    min-height: 250px;
-    max-height: 350px;
-    max-width: 500px;
+    min-height: 350px;
+    max-height: 450px;
   }
   .big {
-    position: fixed;
+    transform: scale(2.5);
+    position: absolute;
   }
 }
